@@ -1,0 +1,26 @@
+body {
+  position: relative;
+  font-size: 14px;
+}
+
+p strong {
+  color: darkblue;
+}
+
+.reveal h4 {
+  border-bottom: 2px solid darkblue;
+}
+.reveal h4 strong {
+  padding: 0px 12px 4px;
+}
+
+
+.reveal p.autor {
+  font-size: 0.72em !important;
+  margin-top: 80px;
+}
+
+.reveal section img {
+  height: 440px;
+  border: 0;
+}

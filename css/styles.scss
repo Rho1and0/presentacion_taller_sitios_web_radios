@@ -1,0 +1,55 @@
+body {
+  font-size: 14px;
+}
+
+.reveal {
+  p.autor {
+    font-size: 0.72em !important;
+    margin-top: 20px;
+  }
+  h1.title-1, h2.title-1, h3.title-1, h4.title-1, h5.title-1, h6.title-1 {
+    margin-bottom: 80px;
+  }
+  .controls {
+    .navigate-right {
+      border-left-color: white;
+      &.enabled {
+        border-left-color: white;
+      }
+    }
+    .navigate-left {
+      border-right-color: white;
+      &.enabled {
+        border-right-color: white;
+      }
+    }
+    .navigate-top {
+      border-bottom-color: white;
+      &.enabled {
+        border-bottom-color: white;
+      }
+    }
+    .navigate-bottom {
+      border-top-color: white;
+      &.enabled {
+        border-top-color: white;
+      }
+    }
+  }
+}
+
+.bibliografia p {
+  font-size: 0.56em !important;
+}
+
+.segundo-color {
+  background-color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {}
+
+h3 {
+  color: #EBC600;
+}
+
+p, ul li {}

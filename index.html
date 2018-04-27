@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Sitios de periodismo web | Taller de periodismo digital</title>
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/serif.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section class="portada" data-background="white">
+        <h3>La Radio online, tendencias en la construcción web para la radio</h3>
+      <br />
+      <h4 class="title-1">Dominio web, hosting y servicio de streaming</h4>
+      <h4 class="title-1">Opciones y presupuesto para montar una radio digital web</h4>
+        <br />
+      <p class="autor">por: <strong>Rolando Monzón</strong></p>
+    </section>
+
+    <section class="pag-1">
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3><strong>La arquitectura de un sitio web</strong></h3>
+        <br />
+          <ul>
+            <li>Cliente usa un <strong>navegador web</strong></li>
+            <li>Se conecta a un <strong>servidor web</strong></li>
+            <li>Carga una <strong>páginas web</strong></li>
+          </ul>
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3><strong>La arquitectura de un sitio web</strong></h3>
+        <img src="images/arquitectura.jpg"/>
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3><strong>Navegadores web</strong></h3>
+        <img src="images/navegadores_web.jpg"/>
+
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3><strong>Servidores web</strong></h3>
+        <img src="images/servidor.jpg"/>
+        <p>Almacenar los archivos de un sitio y emitirlos por Internet</p>
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3 class="title-1">Software para servidores web</h3>
+        <img src="images/servidores_software.jpg" />
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3 class="title-1">tipos de servidores web</h3>
+        <img src="images/tipos_servidores.png" />
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3 class="title-1">Páginas web</h3>
+        <p>Conjunto de archivos en formato html, css, js, php, war, etc.</p>
+        <p>Se descargan en el navegador web del cliente, y este los dibuja</p>
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3 class="title-1">Creadores de páginas web</h3>
+        <img src="images/cms.png" />
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3 class="title-1">Páginas web</h3>
+        <img src="images/pagina_web.jpg" />
+      </section>
+      <section class="pag-1-1">
+        <h4><strong>Dominio web, hosting y servicio de streaming</strong></h4>
+        <h3 class="title-1">¿Cómo añado un reproductor de radio?</h3>
+        <img src="images/reproductor_html5.jpg" />
+      </section>
+    </section>
+  </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    history: true,
+
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      {src: 'plugin/markdown/marked.js'},
+      {src: 'plugin/markdown/markdown.js'},
+      {src: 'plugin/notes/notes.js', async: true},
+      {
+        src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }
+    ]
+  });
+</script>
+</body>
+</html>
