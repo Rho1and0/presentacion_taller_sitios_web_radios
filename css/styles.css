@@ -24,3 +24,7 @@ p strong {
   height: 440px;
   border: 0;
 }
+
+.reveal table {
+  font-size: 24px;
+}
